@@ -1,0 +1,166 @@
+body {
+  background-color: rgba(224, 114, 224, 0.376);
+  margin: 2%;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.246),
+      rgba(255, 255, 255, 0.246)
+    ),
+    url("https://i2i.org/wp-content/uploads/refunds-1024x693.jpg");
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+.invoice1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+}
+.center1 {
+  padding: 1px;
+  margin: 1px;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  text-align: center;
+  font-size: 40px;
+}
+
+.center2 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+.inputText {
+  background-color: white;
+  border: 1px solid black;
+  width: 200px;
+  height: 30px;
+  font-size: medium;
+  border-radius: 5px;
+  margin: 5px 10px;
+}
+#root {
+  background-color: white (221, 221, 233);
+  padding: 10px;
+}
+.button {
+  background-color: #e0e0e0;
+  border: 1px solid rgb(102, 23, 9);
+  width: 100px;
+  height: 30px;
+  font-size: medium;
+  border-radius: 5px;
+  margin: 5px 10px;
+  transition: background-color 2s;
+}
+.button:hover {
+  background-color: rgb(102, 23, 9);
+}
+.arrow {
+  position: relative;
+  font-size: 48px;
+  text-align: center;
+  transform: rotate(90deg);
+  animation: bouncearrow 1s infinite;
+}
+@keyframes bouncearrow {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 20px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+.formItems {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(228, 206, 13);
+  margin: 10px;
+}
+.formItems > * {
+  margin: 5px 10%;
+}
+
+.qrScanner {
+  margin: 0 auto;
+  border: 3px solid black;
+  width: 40%;
+}
+
+.header {
+  background-color: #020202;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.link {
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  display: inline-block;
+  color: rgba(233, 7, 7, 0.575);
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: rgba(233, 7, 7, 0.575);
+}
+.link:hover::after {
+  width: 100%;
+}
+.loadQr {
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 60px;
+  width: 60px;
+  margin-top: -30px;
+  margin-left: -30px;
+  border-radius: 50%;
+  border: 5px solid lightgray;
+  border-top-color: rgb(13, 146, 69);
+  border-bottom-color: rgb(13, 146, 69);
+  animation: spinner 0.9s linear infinite;
+}
+
+table {
+  background-color: rgb(13, 146, 69);
+}
+
+td,
+th {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  height: 30px;
+  margin: 0;
+}
+th {
+  border-top: 1px solid black;
+}
+td,
+th {
+  width: 180px;
+}
+th:nth-of-type(1),
+td:nth-of-type(1) {
+  border-left: 1px solid black;
+}
