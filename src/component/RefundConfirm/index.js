@@ -10,12 +10,12 @@ class RefundConfirm extends Component {
     percentageOfRefund: "",
     submitted: false
   };
-  handleChange = event => {
+  onChange = event => {
     this.setState({
       [event.target.name]: event.target.value
     });
   };
-  handleSubmit = event => {
+  onSubmit = event => {
     event.preventDefault();
     this.setState({
       submitted: true,
@@ -52,8 +52,8 @@ class RefundConfirm extends Component {
       <div>
         <RefundForm
           value={this.state}
-          handleSubmit={this.handleSubmit}
-          handleChange={this.handleChange}
+          onSubmit={this.onSubmit}
+          onChange={this.onChange}
         />
       </div>
     );

@@ -11,7 +11,7 @@ function RefundForm(props) {
             type="radio"
             value="yes"
             name="refundConfirm"
-            onChange={props.handleChange}
+            onChange={props.onChange}
           ></input>
         </div>
         <div>
@@ -20,7 +20,7 @@ function RefundForm(props) {
             type="radio"
             value="no"
             name="refundConfirm"
-            onChange={props.handleChange}
+            onChange={props.onChange}
           ></input>
         </div>
         <div>
@@ -33,7 +33,7 @@ function RefundForm(props) {
             type="text"
             className="inputText"
             name="percentageOfRefund"
-            onChange={props.handleChange}
+            onChange={props.onChange}
             value={props.value.percentageOfRefund}
             placeholder="Enter refund percentage"
           ></input>

@@ -19,11 +19,9 @@
 
 1. Clone the repository by using the following command.
 
-2. git clone https://challenge.summitto.com/548b71bbbb5808a8f829e8fA_/challenge_result.git
+2. git clone git@github.com:Julia123-web/refund-app.git
 
-3. cd to the folder summitto-app.
-
-4. cd refund-app.
+3. cd to the folder Refund-app.
 
 ⏰ RUN THE PROJECT:
 
