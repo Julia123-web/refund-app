@@ -15,6 +15,10 @@
    For example: a 100% refund of an invoice with 100€ before tax and 21€ Value added Tax refunds 121€.
 5. The invoices are be added to the aforementioned overview, including a visual indicator which reveals which invoices have been refunded for which percentage.
 
+👁 👁 SEE THE PROJECT;
+
+1.  https://blissful-agnesi-34fe15.netlify.com/refundoverview
+
 👉 SETUP THE PROJECT:
 
 1. Clone the repository by using the following command.
